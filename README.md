@@ -1,2 +1,64 @@
-# crowd-management
-MM-CrowdNet is a multimodal deep learning system that predicts crowd risk levels by combining visual features from Hajj surveillance videos with sentiment scores from Reddit. It uses CNNs, LSTM, and attention to process video frames and adjusts predictions using social media sentiment.          Ask ChatGPT
+
+##  MM-CrowdNet: A Multimodal Crowd Risk Prediction System
+
+MM-CrowdNet is a deep learning framework for real-time crowd risk classification, combining visual analysis of surveillance videos with social sentiment from Reddit. The model uses CNNs, LSTM with attention, and sentiment-aware fusion to predict crowd risk levels (Low, Medium, High, Critical).
+
+---
+
+###  Project Structure
+
+```
+MM-CrowdNet/
+├── .vscode/
+├── data/
+├── models/
+├── scripts/
+├── venv/
+├── videos/
+├── .env
+├── main.py
+├── requirements.txt
+```
+
+---
+
+###  Quick Start
+
+```bash
+git clone https://github.com/yourusername/MM-CrowdNet.git
+cd MM-CrowdNet
+
+python -m venv venv
+source venv/bin/activate    # or venv\Scripts\activate on Windows
+
+pip install -r requirements.txt
+
+python main.py
+```
+
+---
+
+###  Core Components
+
+* CNN Feature Extraction: ResNet50 + MobileNetV2
+* Temporal Modeling: LSTM with Attention
+* Sentiment Analysis: Reddit posts via BERT
+* Fusion Logic: Weighted adjustment of video-based predictions using sentiment scores
+
+---
+
+###  Output
+
+* Frame-wise predictions of crowd risk levels
+* Adjusted results using public sentiment
+* Saved models and evaluation metrics in `/models` and `/data`
+
+---
+
+###  License
+
+MIT License
+
+---
+
+
