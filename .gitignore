@@ -1,0 +1,22 @@
+# Ignore data and large files if added in future
+data/
+models/
+videos/
+
+# Ignore virtual environments and OS files
+venv/
+.env
+
+# Ignore Python build files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore common large formats
+*.csv
+*.npy
+*.pkl
+*.mp4
+*.zip
+*.keras

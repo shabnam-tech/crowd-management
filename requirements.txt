@@ -1,0 +1,11 @@
+praw
+pandas
+transformers
+torch
+matplotlib
+scikit-learn
+nltk
+opencv-python
+python-dotenv
+tqdm
+tensorflow
