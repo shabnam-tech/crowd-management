@@ -37,6 +37,12 @@ python main.py
 ```
 
 ---
+## 📦 Dataset Access
+
+The full preprocessed **HAJJv2 dataset** used for training and evaluation is too large for GitHub.
+
+🔗 You can download it here:  
+👉 [Download HAJJv2 Processed Dataset (Google Drive)](https://drive.google.com/drive/folders/1yCLG3siw1c0pvIn03XoPkT99JaxutKKL?usp=drive_link)]
 
 ###  Core Components
 
